@@ -23,7 +23,9 @@
             android:gravity="center_vertical|right"
             android:inputType="numberDecimal"
             android:maxLength="8"
-            android:text="00000000" />
+            android:text="00000000">
+            <requestFocus />
+		</EditText>
 
         <Button
             android:id="@+id/buttonInvert1"
@@ -76,8 +78,6 @@
             android:inputType="numberDecimal"
             android:maxLength="8"
             android:text="00000000" >
-
-            <requestFocus />
         </EditText>
 
         <Button
